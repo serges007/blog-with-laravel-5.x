@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 août 2017, 22:58:06
+    Author     : mbele
+*/
+html, body {
+    background-color: #EDEFF2;
+    color: #636b6f;
+    background: url(../img/bg1.jpg) no-repeat;  
+    background-attachment:fixed;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    background-size: cover;
+    z-index: -1;  Keep the background behind the content  
+    position: fixed;
+    margin: 0;    
+    /* Préfixes vendeurs */
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%);
+    -moz-filter: brightness(80%);
+    -o-filter: brightness(80%);
+    -ms-filter: brightness(80%);
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.text{
+    color: #fff;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
